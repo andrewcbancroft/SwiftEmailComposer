@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F28FB24019A271F60072909B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FB23F19A271F60072909B /* AppDelegate.swift */; };
+		F28FB24219A271F60072909B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FB24119A271F60072909B /* ViewController.swift */; };
+		F28FB24519A271F60072909B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F28FB24319A271F60072909B /* Main.storyboard */; };
+		F28FB24719A271F60072909B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F28FB24619A271F60072909B /* Images.xcassets */; };
+		F28FB25319A271F70072909B /* SwiftEmailComposerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FB25219A271F70072909B /* SwiftEmailComposerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F28FB24D19A271F70072909B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F28FB23219A271F60072909B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F28FB23919A271F60072909B;
+			remoteInfo = SwiftEmailComposer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F28FB23A19A271F60072909B /* SwiftEmailComposer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftEmailComposer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28FB23E19A271F60072909B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F28FB23F19A271F60072909B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F28FB24119A271F60072909B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F28FB24419A271F60072909B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F28FB24619A271F60072909B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F28FB24C19A271F70072909B /* SwiftEmailComposerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftEmailComposerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28FB25119A271F70072909B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F28FB25219A271F70072909B /* SwiftEmailComposerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftEmailComposerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F28FB23719A271F60072909B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28FB24919A271F70072909B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F28FB23119A271F60072909B = {
+			isa = PBXGroup;
+			children = (
+				F28FB23C19A271F60072909B /* SwiftEmailComposer */,
+				F28FB24F19A271F70072909B /* SwiftEmailComposerTests */,
+				F28FB23B19A271F60072909B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F28FB23B19A271F60072909B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F28FB23A19A271F60072909B /* SwiftEmailComposer.app */,
+				F28FB24C19A271F70072909B /* SwiftEmailComposerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F28FB23C19A271F60072909B /* SwiftEmailComposer */ = {
+			isa = PBXGroup;
+			children = (
+				F28FB23F19A271F60072909B /* AppDelegate.swift */,
+				F28FB24119A271F60072909B /* ViewController.swift */,
+				F28FB24319A271F60072909B /* Main.storyboard */,
+				F28FB24619A271F60072909B /* Images.xcassets */,
+				F28FB23D19A271F60072909B /* Supporting Files */,
+			);
+			path = SwiftEmailComposer;
+			sourceTree = "<group>";
+		};
+		F28FB23D19A271F60072909B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F28FB23E19A271F60072909B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F28FB24F19A271F70072909B /* SwiftEmailComposerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F28FB25219A271F70072909B /* SwiftEmailComposerTests.swift */,
+				F28FB25019A271F70072909B /* Supporting Files */,
+			);
+			path = SwiftEmailComposerTests;
+			sourceTree = "<group>";
+		};
+		F28FB25019A271F70072909B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F28FB25119A271F70072909B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F28FB23919A271F60072909B /* SwiftEmailComposer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28FB25619A271F70072909B /* Build configuration list for PBXNativeTarget "SwiftEmailComposer" */;
+			buildPhases = (
+				F28FB23619A271F60072909B /* Sources */,
+				F28FB23719A271F60072909B /* Frameworks */,
+				F28FB23819A271F60072909B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftEmailComposer;
+			productName = SwiftEmailComposer;
+			productReference = F28FB23A19A271F60072909B /* SwiftEmailComposer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F28FB24B19A271F70072909B /* SwiftEmailComposerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28FB25919A271F70072909B /* Build configuration list for PBXNativeTarget "SwiftEmailComposerTests" */;
+			buildPhases = (
+				F28FB24819A271F70072909B /* Sources */,
+				F28FB24919A271F70072909B /* Frameworks */,
+				F28FB24A19A271F70072909B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F28FB24E19A271F70072909B /* PBXTargetDependency */,
+			);
+			name = SwiftEmailComposerTests;
+			productName = SwiftEmailComposerTests;
+			productReference = F28FB24C19A271F70072909B /* SwiftEmailComposerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F28FB23219A271F60072909B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Andrew Bancroft";
+				TargetAttributes = {
+					F28FB23919A271F60072909B = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					F28FB24B19A271F70072909B = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = F28FB23919A271F60072909B;
+					};
+				};
+			};
+			buildConfigurationList = F28FB23519A271F60072909B /* Build configuration list for PBXProject "SwiftEmailComposer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F28FB23119A271F60072909B;
+			productRefGroup = F28FB23B19A271F60072909B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F28FB23919A271F60072909B /* SwiftEmailComposer */,
+				F28FB24B19A271F70072909B /* SwiftEmailComposerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F28FB23819A271F60072909B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28FB24519A271F60072909B /* Main.storyboard in Resources */,
+				F28FB24719A271F60072909B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28FB24A19A271F70072909B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F28FB23619A271F60072909B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28FB24219A271F60072909B /* ViewController.swift in Sources */,
+				F28FB24019A271F60072909B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28FB24819A271F70072909B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28FB25319A271F70072909B /* SwiftEmailComposerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F28FB24E19A271F70072909B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F28FB23919A271F60072909B /* SwiftEmailComposer */;
+			targetProxy = F28FB24D19A271F70072909B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F28FB24319A271F60072909B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F28FB24419A271F60072909B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F28FB25419A271F70072909B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F28FB25519A271F70072909B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F28FB25719A271F70072909B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SwiftEmailComposer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F28FB25819A271F70072909B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SwiftEmailComposer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F28FB25A19A271F70072909B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftEmailComposerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftEmailComposer.app/SwiftEmailComposer";
+			};
+			name = Debug;
+		};
+		F28FB25B19A271F70072909B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftEmailComposerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftEmailComposer.app/SwiftEmailComposer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F28FB23519A271F60072909B /* Build configuration list for PBXProject "SwiftEmailComposer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28FB25419A271F70072909B /* Debug */,
+				F28FB25519A271F70072909B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F28FB25619A271F70072909B /* Build configuration list for PBXNativeTarget "SwiftEmailComposer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28FB25719A271F70072909B /* Debug */,
+				F28FB25819A271F70072909B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F28FB25919A271F70072909B /* Build configuration list for PBXNativeTarget "SwiftEmailComposerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28FB25A19A271F70072909B /* Debug */,
+				F28FB25B19A271F70072909B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F28FB23219A271F60072909B /* Project object */;
+}
