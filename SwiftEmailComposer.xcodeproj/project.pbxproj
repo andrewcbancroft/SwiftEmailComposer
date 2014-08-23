@@ -12,6 +12,7 @@
 		F28FB24519A271F60072909B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F28FB24319A271F60072909B /* Main.storyboard */; };
 		F28FB24719A271F60072909B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F28FB24619A271F60072909B /* Images.xcassets */; };
 		F28FB25319A271F70072909B /* SwiftEmailComposerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FB25219A271F70072909B /* SwiftEmailComposerTests.swift */; };
+		F28FB25D19A272250072909B /* EmailComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FB25C19A272250072909B /* EmailComposer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		F28FB24C19A271F70072909B /* SwiftEmailComposerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftEmailComposerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F28FB25119A271F70072909B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F28FB25219A271F70072909B /* SwiftEmailComposerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftEmailComposerTests.swift; sourceTree = "<group>"; };
+		F28FB25C19A272250072909B /* EmailComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailComposer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +77,10 @@
 		F28FB23C19A271F60072909B /* SwiftEmailComposer */ = {
 			isa = PBXGroup;
 			children = (
+				F28FB24319A271F60072909B /* Main.storyboard */,
 				F28FB23F19A271F60072909B /* AppDelegate.swift */,
 				F28FB24119A271F60072909B /* ViewController.swift */,
-				F28FB24319A271F60072909B /* Main.storyboard */,
+				F28FB25C19A272250072909B /* EmailComposer.swift */,
 				F28FB24619A271F60072909B /* Images.xcassets */,
 				F28FB23D19A271F60072909B /* Supporting Files */,
 			);
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F28FB24219A271F60072909B /* ViewController.swift in Sources */,
+				F28FB25D19A272250072909B /* EmailComposer.swift in Sources */,
 				F28FB24019A271F60072909B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +332,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SwiftEmailComposer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -339,6 +344,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SwiftEmailComposer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -397,6 +403,7 @@
 				F28FB25819A271F70072909B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F28FB25919A271F70072909B /* Build configuration list for PBXNativeTarget "SwiftEmailComposerTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +412,7 @@
 				F28FB25B19A271F70072909B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
