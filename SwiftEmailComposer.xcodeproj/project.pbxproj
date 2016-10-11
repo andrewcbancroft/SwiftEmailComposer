@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C394C3B11C10C10A00A0926C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C394C3B01C10C10A00A0926C /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		C394C3B11C10C10A00A0926C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C394C3B01C10C10A00A0926C /* LaunchScreen.storyboard */; };
 		F28FB24019A271F60072909B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FB23F19A271F60072909B /* AppDelegate.swift */; };
 		F28FB24219A271F60072909B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28FB24119A271F60072909B /* ViewController.swift */; };
 		F28FB24519A271F60072909B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F28FB24319A271F60072909B /* Main.storyboard */; };
@@ -166,9 +166,11 @@
 				TargetAttributes = {
 					F28FB23919A271F60072909B = {
 						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0800;
 					};
 					F28FB24B19A271F70072909B = {
 						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0800;
 						TestTargetID = F28FB23919A271F60072909B;
 					};
 				};
@@ -343,6 +345,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.andrewcbancroft.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -356,6 +359,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.andrewcbancroft.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -375,6 +379,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.andrewcbancroft.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftEmailComposer.app/SwiftEmailComposer";
 			};
 			name = Debug;
@@ -391,6 +396,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.andrewcbancroft.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftEmailComposer.app/SwiftEmailComposer";
 			};
 			name = Release;
