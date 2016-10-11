@@ -4,10 +4,10 @@ import UIKit
 class ViewController: UIViewController {
     let emailComposer = EmailComposer()
     
-    @IBAction func sendEmailButtonTapped(sender: AnyObject) {
+    @IBAction func sendEmailButtonTapped(_ sender: AnyObject) {
         let configuredMailComposeViewController = emailComposer.configuredMailComposeViewController()
         if emailComposer.canSendMail() {
-            presentViewController(configuredMailComposeViewController, animated: true, completion: nil)
+            present(configuredMailComposeViewController, animated: true, completion: nil)
         } else {
             showSendMailErrorAlert()
         }
