@@ -1,7 +1,7 @@
 # SwiftEmailComposer
 
 # Resources
-This repository contains an example XCode project for the blog post at [andrewcbancroft.com](http://www.andrewcbancroft.com) titled [Pick a Delegate… Any Delegate… On Clean View Controllers in Swift](http://www.andrewcbancroft.com/2014/08/26/pick-a-delegate-clean-view-controllers-in-swift/).
+This repository contains an example Xcode project for the blog post at [andrewcbancroft.com](http://www.andrewcbancroft.com) titled [Pick a Delegate… Any Delegate… On Clean View Controllers in Swift](http://www.andrewcbancroft.com/2014/08/26/pick-a-delegate-clean-view-controllers-in-swift/).
 
 # Compatibility
-Verified that this repository's code works in XCode 8 and Swift 2.3
+Verified that this repository's code works in Xcode 8 and Swift 2.3
